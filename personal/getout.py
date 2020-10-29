@@ -84,7 +84,7 @@ if ans7.lower().strip() =="p":
     exit()
 elif ans7.lower().strip() =="o":
     print("You round the corner to an open living room with bars on the windows. In the middle of the room is "+ rele +" passed out and badly beaten. They are alive but you need to get them out. You smell smoke and see it coming from the next room.")
-    ans8 = input("Your friend wants to split up and look for an exit. Do you go to q) the room with the smoke or r) the dark basement?")
+    ans8 = input(""+ friend +" wants to split up and look for an exit. Do you go to q) the room with the smoke or r) the dark basement?")
 else:
     print("Wrong key that sucks. Please only use the characters listed in the scenario.")
     exit()
@@ -104,7 +104,7 @@ if ans9.lower().strip() == "t":
     exit()
 elif ans9.lower().strip() =="s":
     print("You yeet the pot at them hitting him in the head spilling the contents on them. As they crumple to the ground.")
-    ans10 = input("Do you go check on u) "+ rele +" or v) "+ friend +"? ")
+    ans10 = input("Do you go check on u) "+ rele +" or v) "+ friend +"?")
 else:
     print("Wrong key that sucks. Please only use the characters listed in the scenario.")
     exit()
